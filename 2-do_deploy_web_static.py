@@ -21,7 +21,7 @@ def do_pack():
 
 
 def do_deploy(archive_path):
-    """Comment"""
+    """Random comment"""
     if not os.path.isfile(archive_path):
         return False
 
