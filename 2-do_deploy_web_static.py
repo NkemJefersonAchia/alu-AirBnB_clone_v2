@@ -35,7 +35,7 @@ def do_deploy(archive_path):
         return False
     # Uncompress the archive to the folder
     #     /data/web_static/releases/<archive filename without extension> on
-    #     the web server
+    #     the web server.
 
     result = run(
         "mkdir -p /data/web_static/releases/{}/".format(archive_filename))
