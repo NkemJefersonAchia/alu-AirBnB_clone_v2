@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Comment"""
+"""Comment."""
 from fabric.api import *
 import os
 import re
